@@ -1,0 +1,44 @@
+body {
+    background-image: url("OBMC.png");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#inputEmail,
+#inputPassword {
+    background-color: transparent !important;
+    color: white;
+}
+
+#inputEmail::placeholder,
+#inputPassword::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#inputEmail:focus,
+#inputPassword:focus {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.bg-light {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.shadow {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.vertical-layout {
+    margin-top: 20px;
+}
